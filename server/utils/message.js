@@ -1,7 +1,7 @@
-let generateMessage = (from, txt) => {
+let generateMessage = (from, text) => {
     return {
         from,
-        txt,
+        text,
         created_at: new Date().getTime()
     };
 };
